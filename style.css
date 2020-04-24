@@ -1,0 +1,258 @@
+body {
+  background: -webkit-linear-gradient(left, #0503a7, #007c00);
+  background: linear-gradient(to right, #0503a7, #007c00);
+  margin: 0;
+  padding: 0;
+}
+
+.language-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Language {
+  color: #234456;
+  padding: 15px;
+  width: 300px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 0;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  font-size: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
+.Language:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.logo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-image: url('images/simbol.jpg');
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: contain;
+}
+
+.svg {
+  background-color: black;
+  width: 800px;
+  height: 600px;
+  box-shadow: inset 4px 4px 4px rgba(50, 50, 50, 1), 
+  4px 4px 4px rgba(100, 100,100, 1);
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+.donate {
+  display: none;
+}
+
+.propoved {
+  color: #DDFF00; 
+  cursor: pointer;
+}
+
+.how-touse {
+  color: #AAAAFF; 
+  cursor: pointer;
+}
+
+.info-p {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  margin: 0 20px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sides {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 40px;
+}
+
+.right-buttons {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.filesAndSettings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-check-inline {
+  text-align: center;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.openedFileButton {
+  background-color: #2365AA;
+  padding: 5px;
+  display: none;
+  border-radius: 4px;
+}
+
+.openedSettingsButton {
+  background-color: #ffc107;
+  padding: 5px;
+  display: none;
+  border-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center;
+}
+
+#poly {
+  display: none;
+}
+
+.openedShapes {
+  background-color: #2365AA;
+  padding: 5px;
+  display: none;
+  border-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center;
+}
+
+.wrapper {
+  padding: 5px;
+  display: none;
+  border-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  box-shadow:0 0 10px #000;
+}
+
+.D0 {
+  background-color: #6c757d;
+}
+
+.D1 {
+  background-color: #dc3545;
+}
+
+.D2 {
+  background-color:  #ffc107;
+}
+
+.D3 {
+  background-color: #343a40;
+}
+
+.D4 {
+  background-color: #28a745;
+}
+
+#selectGroup {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#selectGroup label {
+  display: inline
+}
+
+form {
+  margin: 0;
+}
+
+#sqw label {
+  display: inline
+}
+
+#mir label {
+  display: inline
+}
+
+#kmo label {
+  display: inline
+}
+
+.figuresHref:hover {
+  text-decoration: none;
+}
